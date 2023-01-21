@@ -1,0 +1,91 @@
+<!-- Semana 4 = 1.1 Crie uma página HTML, e nesta página, dê um título para sua lista de itens; --> 
+
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandas Iradas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>BANDAS IRADÍSSIMAS</h1>
+    </header> <!-- 1.2 Crie um cabeçalho, uma seção principal, e um footer para a página; -->
+    
+    <main>    <!-- 1.2 Crie um cabeçalho, uma seção principal, e um footer para a página; -->
+            <br><!-- 1.3. Na seção principal. Crie duas divisões. Uma deve possuir um input e um botão. A outra, deve possuir sections para criar os itens da lista; -->
+            <input type="text" name="nome" id="tituloBusca">
+            <button onclick="recebeInput(event)">Buscar</button>
+            <br>
+         
+        <!-- 1.3. Na seção principal. Crie duas divisões. Uma deve possuir um input e um botão.
+            // A outra, deve possuir sections para criar os itens da lista; -->
+                
+                <!-- 1.4. Crie uma section para cada item da lista; -->
+                
+            <section> 
+                <div><h1>Lista de Bandas</h1><br><br></div>
+                <img src="https://images.vice.com/noisey/content-images/article/hipster-metal-bands-have-meshuggah-to-thank/meshuggah-high-res-press-photo.jpg?crop=1xw:0.8181818181818182xh;center,center&resize=1200:*" alt="foto da banda Meshuggah" width="300px" height="300px">
+                <ul id="nomeBanda1">
+                <!-- <li>Nome: <a href="https://pt.wikipedia.org/wiki/Meshuggah" 
+                target="_blank">Meshuggah</h2></a></li>  1.5. Para cada um dos três itens criados deve possuir todas as informações do array de objetos. As informações devem estar elencadas como lista não ordenada. Esta tela não precisa interagir com o JavaScript, tendo seus dados escritos diretamente nos elementos.
+                <li>Quantidade de Álbuns: 16</li>
+                <li>Em atividade: sim, está ativa.</li>
+                <li>Estilos Musicais: Metal, Death Metal, Metal Progressivo</li> --> 
+                </ul>
+            </section>
+            <br><br> 
+            <section>
+                <img src="https://conteudo.imguol.com.br/c/entretenimento/a7/2020/08/19/cpm-22-apresenta-nova-formacao-da-banda-com-ali-zaher-ex-reffer-no-baixo-e-daniel-siqueira-garage-fuzz-na-bateria-1597855308635_v2_4x3.jpg" width="300px" height="300px">
+                <ul id="nomeBanda2">
+                <!-- <li>Nome: <a href="https://pt.wikipedia.org/wiki/CPM_22" 
+                target="_blank">CPM 22</a></li>  1.5. Para cada um dos três itens criados deve possuir todas as informações do array de objetos. As informações devem estar elencadas como lista não ordenada. Esta tela não precisa interagir com o JavaScript, tendo seus dados escritos diretamente nos elementos.
+                <li>Quantidade de Álbuns: 12</li>
+                <li>Em atividade: sim, está ativa</li>
+                <li>Estilos Musicais: Hardcore Melódico, Punk Rock</li> -->
+                </ul>    
+            </section>
+            <br><br>
+            <section>
+                <img src="https://istoe.com.br/wp-content/uploads/2016/10/legiao-urbana.jpg" width="300px" height="300px">
+                <ul id="nomeBanda3">
+                <!-- <li>Nome: <a href="https://pt.wikipedia.org/wiki/Legi%C3%A3o_Urbana" 
+                target="_blank">Legião Urbana</a></li> 1.5. Para cada um dos três itens criados deve possuir todas as informações do array de objetos. As informações devem estar elencadas como lista não ordenada. Esta tela não precisa interagir com o JavaScript, tendo seus dados escritos diretamente nos elementos.
+                <li>Quantidade de Álbuns: 17</li>
+                <li>Em atividade: não, não está em atividade.</li>
+                <li>Estilos Musicais: Rock Nacional</li> -->
+                </ul>    
+            </section>
+            <br><br>
+            <section>
+                <img src="https://www.loudmagazine.net/wp-content/uploads/2022/10/Slipknot-October-2022-promo-black-and-white.jpg" width="300px" height="300px">
+                <ul id="nomeBanda4">
+                <!-- <li>Nome: <a href="https://pt.wikipedia.org/wiki/Slipknot" 
+                target="_blank">Slipknot</a></li> 1.5. Para cada um dos três itens criados deve possuir todas as informações do array de objetos. As informações devem estar elencadas como lista não ordenada. Esta tela não precisa interagir com o JavaScript, tendo seus dados escritos diretamente nos elementos.
+                <li>Quantidade de Álbuns: 11</li>
+                <li>Em atividade: sim, está ativa.</li>
+                <li>Estilos Musicais: Metal, Nu Metal</li> -->
+                </ul>    
+            </section>
+            <br><br>   
+            </ul>
+        </div>
+                <br>
+        </main>
+    <footer>Projeto Intro Web da Labenu - Aluno: Lucas Vogel - Contate-me pelo <a href="https://github.com/lucasvgl" target="_blank">GitHub</a></footer> <!-- 1.2 Crie um cabeçalho, uma seção principal, e um footer para a página; -->
+</body>
+</html>
+
+<!-- 6. [FEITO] Transforme o nome/título do item em um link para um artigo sobre este item (pode ser do google, de algum blog ou da Wikipédia) -->
+
+<!-- [FEITO] Recomendamos adicionar imagens a seus itens agora. Ao fazer isso, lembre-se de criar mais uma propriedade String nos seus objetos, para guardar o caminho do link até a imagem. -->
+
+<!-- Se baseando no nosso exemplo de estilização, crie a identidade da sua página seguindo os passos abaixo:
+1. [FEITO] Estilize o cabeçalho da sua página com o mesmo título que está no <title>;
+2. [FEITO] Estilize o rodapé para sua página, e nele, coloque suas informações de contato (nome e github);
+3. Estilize a lista criada na semana passada, seguindo o padrão enviado;
+Você não precisa seguir exatamente os mesmos tamanhos, fontes e cores da página de exemplo,
+ mas é importante que os elementos estejam presentes (cabeçalho, rodapé, barra de pesquisa etc). -->
